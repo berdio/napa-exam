@@ -5,8 +5,8 @@ from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from core.models import Student
 from core.serializers import StudentSerializer
-from rest_framework import serializers
-from rest_framework import status
+from rest_framework_simplejwt import serializers
+from rest_framework_simplejwt import status
 
 
 

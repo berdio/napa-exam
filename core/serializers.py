@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from rest_framework import serializers as jwt_serializers
+from rest_framework_simplejwt import serializers as jwt_serializers
 
 from core.models import Student
 
